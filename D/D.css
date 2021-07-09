@@ -1,0 +1,228 @@
+@charset "UTF-8" ;
+
+body{background-color: rgb(173, 189, 135);}
+
+.class{ width:1000px
+        border:2px solid black;
+        display:flex;
+        flex-direction: row;
+        padding: 10px;
+        max-width: 00%;
+        min-width: 100%;
+        height: auto;  
+        background: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+        text-align: center;
+}
+@media screen and(max-width:650px){
+        .class{ 
+                border:2px solid black;
+                display:block;
+                flex-direction: row;
+                padding: 10px;
+                max-width:100%;
+                height: auto;  
+                background: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+                text-align: center;}
+}
+
+.foo ,.f2,.f3,.f5,.tag ,.f7  {
+        background-color: rgb(224, 224, 224);
+        border:solid 1px rgb(59, 59, 59);
+        display:flex;
+        justify-content: space-between;
+        flex-direction:column;
+        width:200px ;
+        padding: 20px;
+        margin-right: 40px;
+        height: 500px;
+}
+
+
+
+
+.tag,.f5{height: 300px;}
+.f7{height: auto;}
+
+
+
+.foo li,.f2 li,.f3 p,.f3 h1,.f3 h2,.f3 h3,.f7 dt{
+        background-color: rgb(160, 160, 160);
+        border:1px solid rgb(43, 43, 43);
+        list-style-type: none;
+        display: flex;
+        width: 60%;
+        flex-basis: 50px; 
+        margin: 0p 2px 0px 2px;
+        
+        
+        
+}
+.f5 dt,.f5 dd,.f7 dt,.circle li{
+        background-color: rgb(160, 160, 160);
+        border:1px solid rgb(43, 43, 43);  
+}
+
+
+.f4 { background-color:rgb(224, 224, 224);
+        border:solid 1px rgb(59, 59, 59);
+        margin-top: 20px;
+        margin-right:20px;
+        height: 200px;
+        
+}
+.f4 td{background-color:rgb(224, 224, 224);
+        border:solid 1px rgb(59, 59, 59);
+        width:50px ;
+        padding: 20px;
+}   
+
+.tag dt{background-color:rgb(160, 160, 160);
+        border:solid 1px rgb(59, 59, 59);
+        width:200px;}
+.tag dt:target{display:flex;
+        background-color: brown;
+}
+.f6{    background-color: rgb(224, 224, 224);
+        border:solid 1px rgb(59, 59, 59);
+        width: 200px;
+        margin-top:50px;
+        display:flex;
+        justify-content:space-between;
+        flex-direction: column;
+        height: 200px;
+}
+
+.f6 :enabled+label{
+        color: cyan;
+}
+.f6 :enabled+label:hover{
+        color: rgb(212, 0, 141);
+        background-color: rgba(175, 117, 252, 0.329) ;
+        cursor: wait;
+}
+.f6 :checked+label{
+        color: rgb(212, 0, 141);
+}
+        
+.f6 :disabled+label{
+        color: rgba(0, 112, 187, 0.164);
+}
+.ts1{   font-weight:bolder;
+        font-style:normal;
+        color: darkgoldenrod;
+        text-shadow:-1px -1px 1px rgb(206, 206, 206),1px 1px 0 rgb(29, 29, 29);}
+.ts {   
+        background:url(../IMG/木紋.jpg)  no-repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2em;
+        font-family:monospace;
+        font-weight: bold;
+}
+
+
+.ci{background-color: rgb(224, 224, 224);
+        border:solid 1px rgb(59, 59, 59);
+        height:200px;
+        text-align: center;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        
+        margin-top: 20px; 
+}
+
+.circle dt{
+        border:solid 1px rgb(59, 59, 59);
+        
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+        background-image: linear-gradient(to left bottom,#fff,#111);  
+          
+}
+.f8{
+        list-style-type: none;
+        background-color: rgb(224, 224, 224);
+        border:solid 1px rgb(59, 59, 59);
+        height:300px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        filter:blur(1px);           
+ }
+
+
+
+.f2 li:nth-last-child(3){border: 2px solid blue;}
+.f2 li:nth-child(2n+4){background-color: cadetblue;}
+.f3 :last-of-type{background:rgb(100, 237, 219);}
+.f4 :last-of-type{background-color:rgb(160, 160, 160)} 
+.f5 :not(:first-child){background-color: blueviolet;}
+
+
+
+.foo:nth-child(1){margin-top:5px}
+/*start開頭*/
+li[class^="abc"]
+        {border:4px solid blue}
+li[class$="abc"]
+        {border:4px solid rgb(255, 0, 119)}
+
+
+.class2{font-size: 1em;
+        line-height:1.5em;
+        width:60em;
+        border:2px solid black;
+        max-width: 100%;
+        height: auto;
+        animation: pulse 0.9s 1 ;
+}
+.class2 img{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        
+}
+@keyframes pulse {
+        0% {    transform: scale(1.1,1.1);
+                background-color: rgb(201, 0, 184);}
+        50% {
+                background-color: rgb(76, 0, 255);
+                transform: scale(0.1,0.1);}
+        100% {  transform: scale(1.1,1.1);
+               background-color:rgb(201, 0, 184);}
+}
+.bt {   color:rgb(165, 236, 72);
+        font-size: 50px;}
+
+.bt a{  font-size: 50px;
+        background-color: rgb(255, 139, 139);
+        color: rgb(255, 255, 255);
+}
+.bt a:hover{
+        background-color: rgb(255, 176, 7);
+        color: rgb(0, 255, 242);
+        transition: 3s ;
+}
+
+
+
+
+a[href^="http"]{
+        color:rgb(255, 0, 119);
+        padding: 30px;
+        background: url(../IMG/icon_blank.gif)left no-repeat;
+        background-size: 20px ;
+}
+a[href*="pdf"]{background: url(../IMG/icon_pdf.gif)left no-repeat;
+        padding: 20px;
+        background-size: 20px;
+}
+}

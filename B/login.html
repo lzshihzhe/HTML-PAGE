@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ZH-TW"></html>
+
+<title>個人資料</title>
+<head>
+    <style> 
+    </style>
+
+<meta charset="utf-8">
+<link href="./B1.css" rel="stylesheet" media="all">
+<link rel="preconnect"href="https://fonts.gstatic.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=
+ Ranchers&family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+ 
+  <H1 class="w">個人資料</H1>
+<section class="主題">
+<img src="../img/38.jpg"width="800"height="450"alt="veiw">
+</section>   
+
+ 
+ 
+ 
+<main id="d">
+  
+<section class="s">
+<div class="uu">
+    <h2 ><strong>—關於我—</strong></h2>
+</div>
+<p>我是劉張仕哲，出生於高雄，畢業於台南應用科技大學美術系。<br>
+個性獨立，做事較為細心謹慎，具備責任感，小時就發掘自己對美術的興趣，<br>
+對於美感的事物比求學期間的同學較為敏銳，因此大學選擇進入相關科系就讀。
+</p>
+</section>
+
+<section class= "sss">
+<ul class="dis">
+    <li>活用display屬性</li>
+    <li>block 區塊氏</li>
+    <li>inline線條式</li>
+    <li>inline-block 線條區塊</li>
+    <li>table-cell整體式</li>
+</ul>
+</section>
+
+
+<section class ="tab">
+<form id="entryForm" action="#" method="post">
+<table border="2" class="ta1" >
+    <caption><strong>個人相關資料</strong></caption>
+    <tr>
+        <th>姓名*</th><td>
+            <input type="text" name="your-name" autofocus placeholder="輸入姓名">
+            <br><small>請輸入半形文字</small></td>
+    </tr><tr>
+        <th>搜尋</th><td><input type="search"name="search" autocomplete  >
+
+    </tr><tr>
+        <th>年齡</th><td><input type="number"name="num" min="1" max="99" step="1">
+            <select name="職業" >
+            <option value=""checked>請選擇</option>
+            <option value="1">10-19</option>
+            <option value="2">20-29</option>
+            <option value="3">30-39</option>
+            </select>
+     </tr><tr>
+         <th>選單</th><td>
+            <select name="select" multiple>
+            <option value="1">wddw</option>
+            <option value="2">wdd515w</option>
+            <option value="3">wdagy</option>
+            <option value="4">jidx</option>
+             </slect>
+         </td>
+          
+    </tr><tr>
+        <th>出生日期</th><td><input type="date" name="date">
+
+    </tr><tr>
+        <th>性別</th>  <td><input type="radio" name="sex" id="men" value="男生"checked>男生
+                           <label for="men"></label>
+                           <input type="radio" name="sex" id="Female"value="女生">女生</td>
+                           <label for="Female"></label>
+
+    </tr><tr>
+        <th>住址</th>  <td><input type="text" name="name" required></td>
+
+    </tr><tr>
+        <th>最愛食物</th>  <td><input type="checkbox" name="favorite"id="pork"value="豬肉" >
+                              <label for="pork">豬肉</label>
+                              <input type="checkbox" name="favorite"id="beef" value="牛肉" >
+                              <label for="beef">牛肉</label>
+                              <input type="checkbox" name="favorite" id="lamb" value="羊肉" >
+                              <label for="lamb">羊肉</label>
+                              <input type="checkbox" name="favorite"id="chicken"value="雞肉" >
+                              <label for="chicken">雞肉</label>
+
+    </tr><tr>
+        <th>E-MAIL</th>  <td><input type="email" name="email"></td>
+    </tr><tr>   
+        <th>職業*</th>
+        <td><select name="職業" >
+            <option value="1" selected>請選擇</option>
+            <option value="2"selected>學生</option>
+            <option value="3"selected>上班族</option>
+            <option value="4">軍公職</option>
+            <option value="5">兼職</option>
+            </select>
+
+        </td><tr>
+        <th>檔案上傳</th><td><input type="file" name="photo"></td>
+        </tr>
+        
+</table>
+</section>
+
+<section class="ta">
+<table class="ta2" >
+<tr>  
+    <th><label for="username"> username:</th>
+    <td><input type="text" id="usernanme"></td>   
+</tr><tr>   
+    <th><label for="password" >password:</label> </th>
+    <td><input type="password" id="password"></td>
+     
+</tr><tr>       
+    <th>留言讓我知道</th>
+    <tr>
+    <td><textarea name="comment" rows="5" cole="120"  ></textarea></td></tr>
+</table>
+</section>
+    <br><br><br>
+
+    <div class="btns">
+        <input type="reset" value="清除">
+        <input type="submit"value=" 送出">
+    </div>
+<section class="ttt">
+    <table border="2">
+        <tr>
+            
+        </tr>
+        <caption>成績表</caption>
+        <colgroup id="name"></colgrop>
+        <colgroup id="language"></colgrop>
+        <colgroup id="english"></colgrop>
+        <colgroup id="mathematics"></colgrop>
+        <colgroup id="average"></colgrop>
+        <colgroup id="evaluation"></colgrop>
+        <thead>
+        <tr>
+            <th scope="col">姓名</th>
+            <th scope="col">國文</th>
+            <th scope="col">英文</th>
+            <th scope="col">數學</th>
+            <th scope="col">平均</th>
+            <th scope="col">平等</th>
+        </tr>
+        </thead>
+        <tfoot>
+            <tr>
+            <th scope="col">姓名</th>
+            <th scope="col">國文</th>
+            <th scope="col">英文</th>
+            <th scope="col">數學</th>
+            <th scope="col">平均</th>
+            <th scope="col">平等</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>  
+                <th scope="row">王大明</th>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+            </tr>
+             <tr>   
+                <th scope="row">王小明</th>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+            </tr>
+            <tr>   
+                <th scope="row">昌品均</th>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+            </tr>
+            <tr>   
+                <th scope="row">林玉明</th>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+                <td>81</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<br><br><br>
+<fieldset>
+    <legend>申請人：</legend>
+    <dl>
+        <dt>姓名：</dt><dd><input type="text" namd="name1"  placeholder="大名"></dd>
+        <dt>地址：</dt><dd><input type="text" namd="address1"></dd>
+    </dl>
+  
+</fieldset>
+  <input type="submit" value="送出">
+
+
+
+</from>
+
+
+
+
+
+
+<section class="simple">
+    <h1>希望發展:</h1>
+    <dl>
+       <dt class="more clear">室內設計</dt>
+       <dm><img src="../IMG/ID.jpg" width="500" height="300" alt="ID" class="imgL"> </dm>
+       <dt class="more clear">程式語言</dt>
+       <dm><img src="../IMG/proramm.jpg"width="500"  height="300" alt ="proramm" class="imgL"> </dm>
+       <dt class="more clear">3D渲染</dt>
+       <dm><img src="../IMG/cep.jpg"width="500"  height="600" alt ="3D渲染" class="imgR"> </dm>
+       <dt class="more clear">概念設計</dt>
+       <dm><img src="../IMG/render.jpg"width="500"  height="300" alt ="概念設計" class="imgR"> </dm>
+    </dl>
+</section>
+
+
+
+</main>
+</body>
+
+
+
+<br><br><br><br><br><br>
+
+
+<footer>
+<h1><dl>連結</dl></h1>
+<a href="#">至頂</a>
+<a href="../A1.html"target="blenk">回首頁</a>
+</footer>
