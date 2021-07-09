@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+body{
+    background-color: #e1e6cff1;
+}
+a{color: rgb(0, 219, 117);}
+a:hover{
+    color: rgb(250, 131, 186);
+ }
+
+.G::before{
+    content: url(IMG/rocket.png);
+}
+
+
+.header{
+   color: rgb(197, 172, 119);
+   background-image: url(IMG/000034990024.jpg);
+   box-shadow:0 0 800px 50px rgb(255, 255, 255) inset;
+   background-size: cover;
+   margin: 0px auto  ;
+   padding: 200px ;
+   width: auto ;
+
+   font-size: 70px;
+   text-align:center;
+   text-shadow: 2px 0px 5px rgb(36, 43, 48);
+   
+}
+.header h1{
+    color: rgb(115, 212, 208);
+    text-shadow: 2px 0px 5px rgb(36, 43, 48);
+    font-family: 'DotGothic16', sans-serif;
+
+}
+
+
+
+main{
+    
+    background: 
+    url(IMG/flower.png) no-repeat  center bottom ,
+    url(IMG/background.jpg) repeat-y  center ;
+    background-size: 50%;
+    background-attachment: fixed ;   
+    text-align:center;
+    font-size: 30px;
+    width: auto 798px ;
+    
+}
+
+.學歷{
+    text-align:center;
+    
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(250, 131, 186);
+    background-image: linear-gradient(to bottom,#666,#4a9d79);
+}
+
+
+.other{
+    color: rgb(9, 255, 230);
+    font-style: italic;
+    text-align:center;
+    
+}
+
+.SADWD+.resizable{margin-top:100PX ;}
+.SADWD{
+    background-color: rgb(175, 197, 181);
+    border-radius: 90px;
+    background-image: radial-gradient(1000px ,#e7225d ,#27273b );
+    box-shadow:0 0 80px 10px royalblue inset;   
+    
+    width: auto;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+
+
+.uu li::before {content: url(IMG/rocket.png);}
+.uu li:hover{background-image: radial-gradient( 100px,rgb(9, 124, 255) rgb(129, 64, 167)) ; 
+             box-shadow: 0px 0px 100px 3px rgb(86, 206, 200) inset;
+             }
+.uu li{
+  
+    background-image: radial-gradient(500px ,#b515bb ,#27273b );
+    border-radius: 10px;
+    text-decoration: rgb(243, 6, 6)none;
+    box-shadow:0 0 100px 10px royalblue inset;
+     border: 1px solid rgb(255, 9, 152);
+     display: inline-block;
+     margin: 0px 50px;
+     height: auto;
+     width: 400px;
+
+     
+     
+     
+     
+     font-size: 30px;
+     
+ }
+
+
+
+.resizable {
+    background-color:rgb(196, 221, 224) ;
+    height: 100px ;
+    border: 20px solid rgb(175, 197, 181);
+    color: rgb(250, 131, 186);
+    resize:both;
+    width: auto 798px ;
+    
+
+    text-align: center;
+    font-size: 40px;
+    font-style:normal;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+#awd{
+    text-align: center;
+    font-size: 30px;
+}
+
+footer{
+    text-align: end;
+    text-size-adjust: 90px;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+ title::after{
+    content:url(IGM/rocket.png);
+ }
+
+.o{
+text-align: center;
+}
+
+section+section{
+    margin-top: 500px;
+}
